@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TC TCId="93ba630433c049d29d271d7f8f01793c" ManualTCId="CSVToExcel" TCName="CSVToExcel" UpdatedOn="6/29/2021 3:20:49 PM">
+  <WF>
+    <Task Name="6b69b17723a94179885de46ab3f2cc24" Desc="TestCsvToExcelMethod" TaskSeq="1" WFId="6b69b17723a94179885de46ab3f2cc24" ID="6b69b17723a94179885de46ab3f2cc24" UpdateTS="6/29/2021 3:20:49 PM" IsSystemTask="true" isCommented="false" IsSkipped="false" ParentID="">
+      <Step StepId="1" ObjectTypeId="c6d21059973a4844b704f7d4828b805b" ActionID="ba519616c6ae4394931daa37edc57940" ActionName="TestCsvToExcelMethod" QClass="TestCsvToExcel" IsSkipped="False" StepSeq="1">
+        <Param Name="CSVFilePath" ParamSeq="1" Parameterized="0" Data="&quot;C:\Users\prafulla.srivastava\Downloads\Sample-Spreadsheet-100-rows.csv&quot;">
+        </Param>
+        <Param Name="ExcelFilePath" ParamSeq="2" Parameterized="0" Data="&quot;D:\PRAFULLA.xlsx&quot;">
+        </Param>
+      </Step>
+    </Task>
+  </WF>
+  <FieldMapping>
+  </FieldMapping>
+</TC>

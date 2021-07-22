@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TC TCId="a0e844ccad6f46a38b17e92014c40f94" ManualTCId="OpenApplication" TCName="OpenApplication" UpdatedOn="6/28/2021 5:50:23 AM">
+  <WF>
+    <Task Name="OpenURL" Desc="OpenURL" TaskSeq="1" WFId="212226f973604242a23fe380cb6f0158" ID="a32f6608445a40e5a175cfaa56befa96" UpdateTS="6/28/2021 5:50:23 AM" FileName="OpenURL.XML" IsSystemTask="false" OnError="Continue" isCommented="false" IsSkipped="false" ParentID="">
+    </Task>
+  </WF>
+  <FieldMapping>
+    <TaskDataSet TaskSeq="1" WFID="212226f973604242a23fe380cb6f0158" ColumnIndx="3">
+      <Step StepId="1" ActionID="bb49d1ead632466aa02b76cdc17c9cce" IsSkipped="False" StepSeq="1">
+        <Param Name="URL" ParamSeq="1" Parameterized="1" Data="" ColumnIndx="3">
+        </Param>
+      </Step>
+      <Step StepId="3" ActionID="66bb4a26a15748da955fbf464045b669" IsSkipped="False" StepSeq="3">
+        <Param Name="SLEEP" ParamSeq="1" Parameterized="1" Data="" ColumnIndx="4">
+        </Param>
+      </Step>
+    </TaskDataSet>
+  </FieldMapping>
+</TC>
